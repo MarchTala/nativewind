@@ -8,8 +8,10 @@ const LoadingScreen = () => {
       style={styles.background}
     >
       <View style={styles.content}>
-        <Text style={styles.text}>Hello, Background Image!</Text>
+        <Text className="text-red-500">Hello, Background Image!</Text>
       </View>
+
+      <View className="border border-red-500"><Text>Test</Text></View>
     </ImageBackground>
   );
 };

@@ -3,7 +3,9 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
   "include": [
@@ -18,6 +20,7 @@
     "components/LoginScreen.jsx",
     "app/index.jsx",
     "app/_layout.jsx",
-    "app/(tabs)/settings.jsx"
+    "app/(tabs)/settings.jsx",
+    "nativewind-env.d.ts"
   ]
 }
